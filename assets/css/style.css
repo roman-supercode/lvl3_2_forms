@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 1920px;
+    font-size: 10px;
+    color: white;
+    
+}
+
+form {
+    width: 40%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(42, 42, 44);
+}
+.top_buttons {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 1rem;
+}
+
+.top_buttons button {
+    width: 100%;
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+    border-style: none;
+    background-color: rgb(28, 28, 35);
+}
+
+#signup:visited {
+    border-right: 1px solid white;
+    background-color: rgb(32, 150, 61);
+}
+
+#signup:hover,
+#login:hover {
+    background-color: rgb(21, 215, 69);
+}
+#login {
+    border-left: 1px solid white;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 5rem 0;
+}
+
+form article {
+    margin: 0 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form article div {
+    display: flex;
+    justify-content: space-between;
+}
+
+form article input {
+    padding: 1rem;
+    border: 1px inset white;
+    background-color: rgb(42, 42, 44);
+    margin: 1.5rem 0;
+}
+
+.bottom_button {
+    margin: 2rem;
+    padding: 2rem 21%;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(32, 150, 61);
+}
+
+.forgot  {
+    display: inline-block;
+    text-align: right;
+    margin: 1rem 3rem;
+    font-size: 1.6rem;
+    color: green;
+}
